@@ -57,4 +57,5 @@ async def cleanup():
     try:
         await litellm.close_litellm_async_clients()
     except Exception:
+
         pass
